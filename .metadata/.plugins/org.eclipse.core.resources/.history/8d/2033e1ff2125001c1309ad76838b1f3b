@@ -1,0 +1,18 @@
+package fr.boucles;
+
+/**
+ * @author Félix
+ *
+ */
+
+public class ExerciceBoucleBase {
+	/**Classe pour un exercice en tp
+	 * @param args
+	 */
+	
+	public static void main(String args[]) {
+		for (int chiffresDeUnADix = 1; chiffresDeUnADix <= 10; chiffresDeUnADix++) {
+			System.out.println(chiffresDeUnADix);
+		}
+	}
+}

@@ -1,0 +1,22 @@
+package fr.algorithmie;
+import java.util.Scanner;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+
+public class InteractifTantQue {
+
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int nb = scanner.nextInt();
+	}
+
+}

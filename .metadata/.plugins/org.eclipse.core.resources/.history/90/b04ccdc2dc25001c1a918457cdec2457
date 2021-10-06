@@ -1,0 +1,20 @@
+package fr.algorithmie;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+
+public class Rotation {
+
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package fr.boucles;
+
+/**
+ * @author Félix
+ *
+ */
+
+public class ExerciceBoucleBase {
+	/**Classe pour un exercice en tp
+	 * @param args
+	 */
+	
+	public static void main(String args[]) {
+//		Affiche tous les chiffres de 1 à 10
+		for (int chiffresDeUnADix = 1; chiffresDeUnADix <= 10; chiffresDeUnADix++) {
+			System.out.println(chiffresDeUnADix);
+		}
+//		Affiche 20 fois mon nom et mon prénom
+		for (int nomPrenom = 0; nomPrenom < 20; ++nomPrenom) {
+			System.out.println("Gaillard Félix");
+		}
+		
+	}
+}

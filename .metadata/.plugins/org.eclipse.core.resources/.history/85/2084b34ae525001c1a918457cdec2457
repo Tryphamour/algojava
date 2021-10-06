@@ -1,0 +1,39 @@
+package fr.algorithmie;
+
+import java.util.Scanner;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+
+public class InteractifTantQue {
+
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		System.out.println("Enter first Integer between 1 and 10 (both inclusive):");
+	    Scanner sc = new Scanner(System.in);
+	    int num1 = isInRange(sc, sc.nextInt());
+
+	    System.out.println("Enter Second Integer between 1 and 10 (both inclusive):");
+	    int num2 = isInRange(sc, sc.nextInt());
+
+	    System.out.println("Num 1 is "+num1+"\nNum 2 is "+num2);    
+	    sc.close();
+	}
+
+	public static int isInRange(Scanner scanner, int num) {
+	    if(num<1 || num>10) {
+	        System.out.println("WRONG INPUT. PLease enter Integer between 1 and 10 (both inclusive):");
+	        num =scanner.nextInt();
+	        isInRange(scanner, num);
+
+	    }
+	    return num;
+	}
+}

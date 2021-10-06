@@ -1,0 +1,18 @@
+package fr.declaration.variable;
+
+public class DeclarationApp {
+	public static void main (String args[]) {
+		byte a = 1;
+		short b = 32000;
+		int c = 100000;
+		long d = 1000000L;
+		float e = 2.3f;
+		double f = 4.5;
+		char g = 'a';
+		boolean h = true;
+		String i = "Hello world";
+		System.out.println(a);
+		String randomString = "Voici le résultat d’un calcul :\n1+5=6";
+		System.out.println(randomString);
+	}
+}

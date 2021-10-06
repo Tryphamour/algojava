@@ -1,0 +1,23 @@
+package fr.algorithmie;
+
+import java.util.Scanner;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+
+public class InteractifChiffresSuivants {
+	
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

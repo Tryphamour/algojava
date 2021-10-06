@@ -1,0 +1,36 @@
+package fr.algorithmie;
+
+import java.util.Scanner;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+
+public class InteractifTantQue {
+
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a = sc.nextint();
+		while (true) {
+			System.out.print("Entrez un nombre compris entre 1 et 10 : ");
+			if (!input.hasNextInt() || !input.hasNext() || (a <= 1 || a >= 10)) {
+				System.out.println("Oops! ");
+				input.nextLine();
+			}
+			else {
+				a = input.nextInt();
+				break;
+			}
+		}
+		input.close();
+		System.out.println("a = " + a);
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\sonag\Documents\Diginamic\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.jdt.core
+1991655398.index
+4294197864.index
+1865797976.index

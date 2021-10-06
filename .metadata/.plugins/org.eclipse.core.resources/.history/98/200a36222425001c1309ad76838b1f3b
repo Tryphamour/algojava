@@ -1,0 +1,17 @@
+package fr.boucles;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+public class ExerciceTableauEntier {
+
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+	public static void main(String args[]) {
+
+	}
+}

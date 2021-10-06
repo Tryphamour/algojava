@@ -1,0 +1,20 @@
+package fr.algorithmie;
+
+/**
+ * @author Félix Gaillard
+ *
+ */
+
+public class FirstLast {
+	
+	/**
+	 * Classe pour un exercice en tp
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+
+	}
+
+}
